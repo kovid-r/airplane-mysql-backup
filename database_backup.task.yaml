@@ -1,0 +1,5 @@
+slug: database_backup
+name: Database Backup
+sql:
+  resource: mysql
+  entrypoint: database_backup.sql
