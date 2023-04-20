@@ -1,0 +1,12 @@
+resources:
+    - database: classicmodels
+      host: localhost
+      kind: mysql
+      name: MySQL
+      password: airplanedev
+      port: "3306"
+      slug: mysql
+      tls: skip-verify
+      username: airplane
+configVars: {}
+envVars: {}
