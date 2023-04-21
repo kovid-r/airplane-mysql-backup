@@ -1,5 +1,32 @@
 # Creating MySQL database backup using Airplane
 
+## Prerequisites
+
+* [MySQL](https://dev.mysql.com/downloads/installer/) - a local or remote installation of MySQL.
+* [Classic Models](https://github.com/hhorak/mysql-sample-db/blob/master/mysqlsampledatabase.sql) - a sample database schema with data.
+* [Airplane CLI](https://docs.airplane.dev/platform/airplane-cli) - a command-line tool to interact with Airplane.
+
+## Configuring Airplane
+
+Installing and configuring Airplane is simple. First, you have to install the command line tool using the following command:
+
+```shell
+brew install airplanedev/tap/airplane
+```
+
+If you are on any other operating system, you can check out [this link](https://docs.airplane.dev/platform/airplane-cli) for the installation instructions.
+Once you are done installing Airplane, spin up a `dev` environment for Airplane on your local machine using the following command:
+
+```shell
+airplane dev
+```
+
+The output of this command is shown below:
+
+![Initializing a dev environment on your local machine using the Airplane CLI - Image by author](https://i.imgur.com/dE4ygkl.png)
+
+Pressing the return key will redirect you to the Airplane web console, where you must log into your Airplane account. Once you log in, a token will be transmitted to the CLI. After that, your work will be synced to the web console.
+
 ## Configuring MySQL
 
 Installing MySQL is also very easy. If you are on a Mac-based system, you can use the following command to install MySQL:
